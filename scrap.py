@@ -72,8 +72,8 @@ with open('reactor.csv', 'a', newline='') as output_file:
 with open('result.json', 'w') as fp:
     json.dump(output, fp)
 
-##hostname = 'ssh1.iitd.ac.in'
-##command = 'scp result.json bb5130021@ssh1.iitd.ac.in:/home/dbeb/dual/as1110011/private_html/result.json'
+##hostname = 'ssh1.abc.in'
+##command = 'scp result.json as1110011@ssh1.abc.in:/home/dbeb/dual/as1110011/private_html/result.json'
 ##password = ''
 ##username = ""
 ##port = 
